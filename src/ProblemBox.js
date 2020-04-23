@@ -7,13 +7,12 @@ export default function ProblemBox(props){
         setClickCounter(newClickCounter);
         if (newClickCounter === 1) {
             setMessage(props.question);
-        } else if (newClickCounter === 2) {
+        } else if (newClickCounter <= 2) {
             setMessage(props.answer);
             setClickCounter(-1);
         } else if (newClickCounter === 0) {
             setMessage(props.point);
         }
-        alert();
     }
     return(
         <div>

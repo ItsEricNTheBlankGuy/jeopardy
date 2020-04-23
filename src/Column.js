@@ -7,11 +7,9 @@ export default function Column(props){
             <div>
                 <h1>{props.genre}</h1>
             </div>
-            <ProblemBox point={"100"} question={props.questionAgain}/>
-            <ProblemBox point={"200"} question={props.questionAgainTwo}/>
-            <ProblemBox point={"300"} question={props.questionAgainThree}/>
-            <ProblemBox point={"400"} question={props.questionAgainFour}/>
-            <ProblemBox point={"500"} question={props.questionAgainFive}/>
+            <ProblemBox point={"100"} question={props.questionAgain} answer={props.answerOne}/>
+            <ProblemBox point={"200"} question={props.questionAgainTwo} answer={props.answerTwo}/>
+            <ProblemBox point={"300"} question={props.questionAgainThree} answer={props.answerThree}/>
         </div>
     )
 }

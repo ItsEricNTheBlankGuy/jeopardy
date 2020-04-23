@@ -48,9 +48,60 @@ body {
     background-color: dodgerblue;
 }
 .column {
-    border: solid white 5px;
     height: auto;
+    width: 33%;
+}
+.one {
+    border-left: solid white 5px;
+}
+.three {
+    border-right: solid white 5px;
 }
 .column > div > div:nth-child(1){
-    border: dotted white 3px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    height: 125px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.column > div > div:nth-child(1) > h1{
+    margin: 0%;
+
+}
+.column > div > div:nth-child(2) > div {
+    height: 125px;
+    border: solid white 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.column > div > div:nth-child(2) > div > h1 {
+    font-size: 25px;
+    margin: 0%;
+    text-align: center;
+}
+.column > div > div:nth-child(3) > div {
+    height: 125px;
+    border: solid white 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.column > div > div:nth-child(3) > div > h1 {
+    font-size: 25px;
+    margin: 0%;
+    text-align: center;
+}
+.column > div > div:nth-child(4) > div {
+    height: 125px;
+    border: solid white 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.column > div > div:nth-child(4) > div > h1 {
+    font-size: 25px;
+    margin: 0%;
+    text-align: center;
 }
